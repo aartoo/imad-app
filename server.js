@@ -14,7 +14,7 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('/raghul', function (req, res) {
-  res.sendFile("hi there!"));
+  res.sendFile("hi there!");
 });
 
 app.get('/ui/madi.png', function (req, res) {
