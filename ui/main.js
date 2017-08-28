@@ -14,11 +14,8 @@ button.onclick = function () {
     request.open('GET','http://contacttothis21.imad.hasura-app.io/counter',true); 
     request.send(null);
 };
-var inputName = document.getElementById('name');
-var name = inputName.value;
 var submit = document.getElementById('submit_button');
 submit.onclick = function () {
- 
   var request = new XMLHttpRequest();
   request.onreadystatechange = function() {
       if (request.readyState === XMLHttpRequest.DONE) {
@@ -35,6 +32,8 @@ submit.onclick = function () {
             }
         }
     };
+    var inputName = document.getElementById('name');
+    var name = inputName.value;
     request.open('GET','http://contacttothis21.imad.hasura-app.io/submit-name?name=' +name,true); 
     request.send(null);
  
