@@ -24,5 +24,5 @@ submit.onClick = function () {
      list += '<li>' + names[i] + '</li>';
  }
 var ul = getElemetById('namelist');
-ul.innerHTML  = list;
+ul.innerHTML = list;
 };
