@@ -40,8 +40,8 @@ submit.onclick = function () {
 };
 
 var comment_value = document.getElementById('comment_text');
-var comment_button = document.getElementById('comment_button');
-comment_button.onclick = function () {
+var comment_bttn = document.getElementById('comment_button');
+comment_bttn.onclick = function () {
     var vl = document.getElementById = ('comment_content');
     vl.innerHTML = comment_value;
 };
