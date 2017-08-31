@@ -62,6 +62,8 @@ function createTemplate(data) {
 						    ${content}
 						</div>
 					</div>
+                <input type = "text" id = "comment_text" placeholder = "name"></input>
+                <input type = "submit" value = "submit" id = "comment_button"></input>
 				</body>
 				</html>`
 		;
